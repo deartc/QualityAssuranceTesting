@@ -1,20 +1,10 @@
 ﻿using System;
 
 namespace QualityAssuranceTestCalories
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("QualityAssuranceTestCalories" +
-                "!");
-        }
-    }
-}
+{ }
 
-namespace CaloriesCount
-{
-    class Calculation
+
+class Calculation
     {
         static void Main(string[] args)
         {
