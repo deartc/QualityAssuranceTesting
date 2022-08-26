@@ -1,0 +1,5 @@
+C:\Users\4dear\source\repos\deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Debug\netcoreapp3.1\QualityAssuranceTestCalories.csproj.AssemblyReference.cache
+C:\Users\4dear\source\repos\deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Debug\netcoreapp3.1\QualityAssuranceTestCalories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4dear\source\repos\deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Debug\netcoreapp3.1\QualityAssuranceTestCalories.AssemblyInfoInputs.cache
+C:\Users\4dear\source\repos\deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Debug\netcoreapp3.1\QualityAssuranceTestCalories.AssemblyInfo.cs
+C:\Users\4dear\source\repos\deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Debug\netcoreapp3.1\QualityAssuranceTestCalories.csproj.CoreCompileInputs.cache

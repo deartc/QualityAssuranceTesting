@@ -1,0 +1,14 @@
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\bin\Debug\netcoreapp3.1\QATest.exe
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\bin\Debug\netcoreapp3.1\QATest.deps.json
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\bin\Debug\netcoreapp3.1\QATest.runtimeconfig.json
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\bin\Debug\netcoreapp3.1\QATest.runtimeconfig.dev.json
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\bin\Debug\netcoreapp3.1\QATest.dll
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\bin\Debug\netcoreapp3.1\QATest.pdb
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.csproj.AssemblyReference.cache
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.AssemblyInfoInputs.cache
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.AssemblyInfo.cs
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.csproj.CoreCompileInputs.cache
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.dll
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.pdb
+C:\Users\4dear\Source\Repos\deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.genruntimeconfig.cache
