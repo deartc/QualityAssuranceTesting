@@ -1,6 +1,6 @@
 # QualityAssuranceTesting
 
-his project is a Quality Assurance Project. To run my project do the following: Clone github.com/deartc/QualityAssuranceProject.
+This project entitled Quality Assurance Project examines a food  diet. To run my project do the following: Clone github.com/deartc/QualityAssuranceProject.
 
 Feature List: Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program
 
