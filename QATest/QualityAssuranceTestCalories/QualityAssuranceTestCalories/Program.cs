@@ -12,16 +12,16 @@ class Calculation
             weightCheck();
             calorieCalc();
             getUserMacros();
-            Console.Write("\nPress any key to close...");
+            Console.Write("\nThanks for Using Calorie Calculator...");
 
         }
 
         public static int weight, multiplier, numCalories;
 
-        //Gets gender of the user
+        //gender is needed to be inputted
         private static void genderCheck(bool onlyLetters = false)
         {
-            Console.Write("Are you a male or female?\n");
+            Console.Write("Do you identify as a man or a woman?\n");
             string gender = Console.ReadLine();
 
             for (int i = 0; i < gender.Length; i++)
@@ -29,7 +29,7 @@ class Calculation
                 if (gender == "Male" || gender == "male" || gender == "Female" || gender == "female")
                 {
                     onlyLetters = true;
-                    Console.WriteLine("You are a " + gender.ToLower() + ".\n");
+                    Console.WriteLine("You identify as a  " + gender.ToLower() + ".\n");
                     break;
                 }
                 else
@@ -40,29 +40,29 @@ class Calculation
 
             if (onlyLetters == false)
             {
-                Console.WriteLine("Please enter a valid gender.\n");
+                Console.WriteLine("Please enter the gender you identify as.\n");
                 genderCheck();
             }
         }
 
-        //Gets weight of the user
+        //Ideal weight needs to be entered
         private static void weightCheck()
         {
 
-            Console.Write("Please enter your goal weight in lbs.\n");
+            Console.Write("Enter you ideal weight in lbs.\n");
             string lbs = Console.ReadLine();
 
             int.TryParse(lbs, out weight);
 
-            Console.Write("Your goal weight is " + weight + " lbs.\n");
+            Console.Write("Your ideal is " + weight + " lbs.\n");
 
         }
 
         //Calculates macros of the user
         private static void calorieCalc()
         {
-            Console.Write("\nA multiplier determines calorie intake for cutting, maintenance or bulking diets.\n");
-            Console.Write("\nPlease select a calorie multiplier between 10 and 20:\n");
+            Console.Write("\nDetermine specific diet desired.\n");
+            Console.Write("\nDetermine a calorie multiplier between 10 and 20:\n");
 
             string multSelect = Console.ReadLine();
 
@@ -73,9 +73,9 @@ class Calculation
 
             numCalories = weight * multiplier;
 
-            Console.Write("\nYou should eat " + numCalories + " calories per day.\n");
+            Console.Write("\nYour Calorie consumption should be" + numCalories + " calories per day.\n");
 
-            Console.Write("\nEnter the percentages of each macronutrient (must add up to 100%).\n");
+            Console.Write("\nEnter the percentages of each nutriet category (must add up to 100%).\n");
         }
 
         private static void getUserMacros()
@@ -89,7 +89,7 @@ class Calculation
             float.TryParse(proteinNumber, out proteinPercent);
 
             //Gets the carb percentage from user
-            Console.Write("\nCarbs: ");
+            Console.Write("\nCarbohydrates: ");
             string carbNumber = Console.ReadLine();
 
             float carbPercent;

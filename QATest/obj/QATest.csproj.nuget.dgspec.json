@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\4dear\\Source\\Repos\\deartc\\QualityAssuranceTesting\\QATest\\QATest.csproj": {}
+    "C:\\Users\\4dear\\source\\repos\\deartc\\QualityAssuranceTesting\\QATest\\QATest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\4dear\\Source\\Repos\\deartc\\QualityAssuranceTesting\\QATest\\QATest.csproj": {
+    "C:\\Users\\4dear\\source\\repos\\deartc\\QualityAssuranceTesting\\QATest\\QATest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\4dear\\Source\\Repos\\deartc\\QualityAssuranceTesting\\QATest\\QATest.csproj",
+        "projectUniqueName": "C:\\Users\\4dear\\source\\repos\\deartc\\QualityAssuranceTesting\\QATest\\QATest.csproj",
         "projectName": "QATest",
-        "projectPath": "C:\\Users\\4dear\\Source\\Repos\\deartc\\QualityAssuranceTesting\\QATest\\QATest.csproj",
+        "projectPath": "C:\\Users\\4dear\\source\\repos\\deartc\\QualityAssuranceTesting\\QATest\\QATest.csproj",
         "packagesPath": "C:\\Users\\4dear\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\4dear\\Source\\Repos\\deartc\\QualityAssuranceTesting\\QATest\\obj\\",
+        "outputPath": "C:\\Users\\4dear\\source\\repos\\deartc\\QualityAssuranceTesting\\QATest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\4dear\\AppData\\Roaming\\NuGet\\NuGet.Config",
