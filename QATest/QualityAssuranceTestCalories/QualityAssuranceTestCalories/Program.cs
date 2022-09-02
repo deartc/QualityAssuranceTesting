@@ -8,10 +8,10 @@ class Calculation
     {
         static void Main(string[] args)
         {
-            genderCheck();
-            weightCheck();
-            calorieCalc();
-            getUserMacros();
+            GenderCheck();
+            WeightCheck();
+            CalorieCalc();
+            GetUserMacros();
             Console.Write("\nThanks for Using Calorie Calculator...");
 
         }
@@ -19,7 +19,7 @@ class Calculation
         public static int weight, multiplier, numCalories;
 
         //gender is needed to be inputted
-        private static void genderCheck(bool onlyLetters = false)
+        private static void GenderCheck(bool onlyLetters = false)
         {
             Console.Write("Do you identify as a man or a woman?\n");
             string gender = Console.ReadLine();
@@ -41,12 +41,12 @@ class Calculation
             if (onlyLetters == false)
             {
                 Console.WriteLine("Please enter the gender you identify as.\n");
-                genderCheck();
+                GenderCheck();
             }
         }
 
         //Ideal weight needs to be entered
-        private static void weightCheck()
+        private static void WeightCheck()
         {
 
             Console.Write("Enter you ideal weight in lbs.\n");
@@ -59,7 +59,7 @@ class Calculation
         }
 
         //Calculates macros of the user
-        private static void calorieCalc()
+        private static void CalorieCalc()
         {
             Console.Write("\nDetermine specific diet desired.\n");
             Console.Write("\nDetermine a calorie multiplier between 10 and 20:\n");
@@ -78,15 +78,15 @@ class Calculation
             Console.Write("\nEnter the percentages of each nutriet category (must add up to 100%).\n");
         }
 
-        private static void getUserMacros()
+        private static void GetUserMacros()
         {
 
             //Gets protein percentage from user
             Console.Write("Protein: ");
-            string proteinNumber = Console.ReadLine();
+            string ProteinNumber = Console.ReadLine();
 
-            float proteinPercent;
-            float.TryParse(proteinNumber, out proteinPercent);
+            float ProteinPercent;
+            float.TryParse(ProteinNumber, out ProteinPercent);
 
             //Gets the carb percentage from user
             Console.Write("\nCarbohydrates: ");
@@ -98,16 +98,16 @@ class Calculation
 
             //Gets the fat percentage from user
             Console.Write("\nFat: ");
-            string fatNumber = Console.ReadLine();
+            string FatNumber = Console.ReadLine();
 
-            float fatPercent;
-            float.TryParse(fatNumber, out fatPercent);
+            float FatPercent;
+            float.TryParse(FatNumber, out FatPercent);
 
             //Verifies user input adds up to 100%
-            if (proteinPercent + carbPercent + fatPercent != 100)
+            if (ProteinPercent + CarbPercent + FatPercent != 100)
             {
                 Console.Write("\nSorry! Your selected percentages must add up to 100%. Please try again.\n");
-                getUserMacros();
+                GetUserMacros();
             }
             else
             {
