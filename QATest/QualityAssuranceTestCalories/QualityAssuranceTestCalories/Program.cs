@@ -86,14 +86,14 @@ class Calculation
             string ProteinNumber = Console.ReadLine();
 
             float ProteinPercent;
-            float.TryParse(ProteinNumber, out ProteinPercent);
+        float.TryParse(ProteinNumber, out ProteinPercent);
 
             //Gets the carb percentage from user
             Console.Write("\nCarbohydrates: ");
             string carbNumber = Console.ReadLine();
 
             float carbPercent;
-            float.TryParse(carbNumber, out carbPercent);
+            float.TryParse(carbNumber, out CarbPercent);
 
 
             //Gets the fat percentage from user
@@ -112,17 +112,17 @@ class Calculation
             else
             {
                 //Calculate Protein Numbers
-                float proteinCalories = numCalories * (proteinPercent / 100);
+                float proteinCalories = numCalories * (ProteinPercent / 100);
                 float proteinGrams = proteinCalories / 4;
 
 
                 //Calculate Carb Numbers
-                float carbCalories = numCalories * (carbPercent / 100);
+                float carbCalories = numCalories * (CarbPercent / 100);
                 float carbGrams = carbCalories / 4;
 
 
                 //Calculate Fat Numbers
-                float fatCalories = numCalories * (fatPercent / 100);
+                float fatCalories = numCalories * (FatPercent / 100);
                 float fatGrams = fatCalories / 9;
 
 
