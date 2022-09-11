@@ -19,12 +19,13 @@ class Calculation
     }
 
     public static int weight, multiplier, numCalories;
-    private static ReadOnlySpan<char> carbNumber;
+    private static ReadOnlySpan<char> CarbNumber;
 
-    public static ReadOnlySpan<char> GetCarbNumber()
-    {
-        return carbNumber;
-    }
+    public static ReadOnlySpan<char> CarbNumber1 { get => CarbNumber2; set => CarbNumber2 = value; }
+    public static ReadOnlySpan<char> CarbNumber2 { get => CarbNumber3; set => CarbNumber3 = value; }
+    public static ReadOnlySpan<char> CarbNumber3 { get => CarbNumber; set => CarbNumber = value; }
+
+    public static ReadOnlySpan<char> CarbNumber4 => CarbNumber;
 
     private static void SetCarbNumber(ReadOnlySpan<char> value)
     {
@@ -107,7 +108,7 @@ class Calculation
 
         float carbPercent;
         float CarbPercent;
-        bool v2 = float.TryParse(GetCarbNumber(), out CarbPercent);
+        bool v2 = float.TryParse(CarbNumber4, out CarbPercent);
         bool v1 = v2;
         bool v = v1;
 
