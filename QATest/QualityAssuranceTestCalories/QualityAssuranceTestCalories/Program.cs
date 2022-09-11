@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace QualityAssuranceTestCalories
 { }
 
-
+[DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
 class Calculation
 {
     private const string Value = "\nThanks for Using Calorie Calculator...";
@@ -20,18 +21,7 @@ class Calculation
 
     public static int weight, multiplier, numCalories;
 
-    public static ReadOnlySpan<char> CarbNumber1 { get => CarbNumber2; set => CarbNumber2 = value; }
-    public static ReadOnlySpan<char> CarbNumber2 { get => CarbNumber3; set => CarbNumber3 = value; }
-    public static ReadOnlySpan<char> CarbNumber3 { get => CarbNumber4; set => CarbNumber4 = value; }
-
-    public static ReadOnlySpan<char> CarbNumber4 { get; private set; }
-
-    private static void SetCarbNumber(ReadOnlySpan<char> value)
-    {
-        carbNumber = value;
-    }
-
-    //gender is needed to be inputted
+   
     private static void GenderCheck(bool onlyLetters = false)
     {
         Console.Write("Do you identify as a man or a woman?\n");
@@ -105,9 +95,9 @@ class Calculation
         Console.Write("\nCarbohydrates: ");
         string carbNumber = Console.ReadLine();
 
-        float carbPercent;
         float CarbPercent;
-        bool v2 = float.TryParse(CarbNumber4, out CarbPercent);
+       
+       bool v2 = float.TryParse(CalculationHelpers.GetCarbNumber4(), out CarbPercent);
         bool v1 = v2;
         bool v = v1;
 
@@ -147,6 +137,11 @@ class Calculation
             Console.Write("Carbs: " + carbCalories + " calories (" + carbGrams.ToString("#.##") + "g)\n");
             Console.Write("Fat: " + fatCalories + " calories (" + fatGrams.ToString("#.##") + "g)\n");
         }
+    }
+
+    private string GetDebuggerDisplay()
+    {
+        return ToString();
     }
 }
 }
