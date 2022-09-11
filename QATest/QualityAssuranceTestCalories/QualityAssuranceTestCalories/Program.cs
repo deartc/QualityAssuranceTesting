@@ -93,7 +93,7 @@ class Calculation
             string carbNumber = Console.ReadLine();
 
             float carbPercent;
-            float.TryParse(carbNumber, out CarbPercent);
+            float.TryParse(CarbNumber, out CarbPercent);
 
 
             //Gets the fat percentage from user
