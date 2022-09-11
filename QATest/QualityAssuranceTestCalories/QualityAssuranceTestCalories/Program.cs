@@ -19,13 +19,12 @@ class Calculation
     }
 
     public static int weight, multiplier, numCalories;
-    private static ReadOnlySpan<char> CarbNumber;
 
     public static ReadOnlySpan<char> CarbNumber1 { get => CarbNumber2; set => CarbNumber2 = value; }
     public static ReadOnlySpan<char> CarbNumber2 { get => CarbNumber3; set => CarbNumber3 = value; }
-    public static ReadOnlySpan<char> CarbNumber3 { get => CarbNumber; set => CarbNumber = value; }
+    public static ReadOnlySpan<char> CarbNumber3 { get => CarbNumber4; set => CarbNumber4 = value; }
 
-    public static ReadOnlySpan<char> CarbNumber4 => CarbNumber;
+    public static ReadOnlySpan<char> CarbNumber4 { get; private set; }
 
     private static void SetCarbNumber(ReadOnlySpan<char> value)
     {
